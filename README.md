@@ -44,7 +44,7 @@ The fallback function is here to receive any incoming payments our contracts get
 
 ## Setup
 
-> Clone this GitHub repo.
+> Clone this GitHub repository.
 
 ## Steps to Compile and Deploy
 - Global dependencies
