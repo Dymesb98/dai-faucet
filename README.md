@@ -11,7 +11,7 @@ The Dai Stablecoin System involves a series of smart contracts that allows anyon
 ## Sections
 * [Building Blocks](#building-blocks-of-the-daifaucet-contract)
 * [Setup](#setup)
-* [Deploy Smart Contract](#deploy-on-kovan-testnet)
+* [Deploy DaiFaucet](#deploy-on-kovan-testnet)
 * [Use Faucet](#use-faucet)
 
 ## Building Blocks of the DaiFaucet contract
