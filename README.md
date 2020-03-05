@@ -8,10 +8,10 @@ The Dai token is based on the [DS-Token](https://dapp.tools/dappsys/ds-token.htm
 The Dai Stablecoin System involves a series of smart contracts that allows anyone to issue Dai by locking collateral (other valuable crypto assets) into the system.
 
 ## Sections
-* [Building Blocks](#Building Blockcs of the DaiFaucet contract)
-* [Setup](#Setup)
-* [Deploy Smart Contract](#Deploy on Kovan's Testnet)
-* [Use Faucet](#Use Faucet)
+* [Building Blocks](#building-blocks-of-the-daifaucet-contract)
+* [Setup](#setup)
+* [Deploy Smart Contract](#deploy-on-kovan's-testnet)
+* [Use Faucet](#use-faucet)
 
 ## Building Blocks of the DaiFaucet contract
 
