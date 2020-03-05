@@ -27,4 +27,11 @@ Now the **DaiToken** interface will link the Dai token address on the kovan netw
 ## [Mortal](./contracts/Mortal.sol)
 > Kill Switch
 
+The **Mortal** contract inherit the **Owned** contract and give our contract a kill switch that will terminate it and return any funds back to the owner.  
+The **destroy** function can only be called by the owner, hence the **onlyOwner** modifier.  
+Here we use the **daitoken** interface, transfering any remaining Dai funds of the faucet contract to the owner.  
+
+## [DaiFaucet](./contracts/DaiFaucet.sol)
+> Dai Faucet
+
 
