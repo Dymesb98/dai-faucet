@@ -7,5 +7,5 @@ The Dai Stablecoin System involves a series of smart contracts that allows anyon
 
 ## Blocks of Code that forms the DaiFaucet contract
 
-### [DaiToken](./contract/DaiToken.sol)
+### [DaiToken](./contracts/DaiToken.sol)
 
