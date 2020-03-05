@@ -9,7 +9,7 @@ The Dai Stablecoin System involves a series of smart contracts that allows anyon
 
 ## Building Blocks of the DaiFaucet contract
 
-### [DaiToken](./contracts/DaiToken.sol)
+## [DaiToken](./contracts/DaiToken.sol)
 > Dai Token Interface
 
 To enable our faucet contract to recognize and interact with the Dai token contract we need to write an interface that will map the Dai token functions that we'll use.  
