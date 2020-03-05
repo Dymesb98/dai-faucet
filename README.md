@@ -71,7 +71,7 @@ The fallback function is here to receive any incoming payments our contracts get
  - Get an Ethereum Account on Metamask.
  - On the landing page, click “Get Chrome Extension.”
  - Create a .secret file cointaining the menomic.
- - Get some test ether from a [Kovan's faucet](https://faucet.kovan.io/).
+ - Get some test ether from a [Kovan's faucet](https://faucet.kovan.network/).
  - Signup [Infura](https://infura.io/).
  - Create new project.
  - Copy the rinkeby URL into truffle-config.js.
