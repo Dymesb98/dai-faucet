@@ -42,7 +42,57 @@ We have added the **withdraw** function that will take care to send Dai to anyon
 Only after these conditions are met we can transfer 0.1 Dai to the function caller. And of course, we log this transaction with the Withdrawal event. The way we send Dai to the function caller is by using the above defined DaiToken interface to allow us to make the transfer.  
 The fallback function is here to receive any incoming payments our contracts gets and log the Deposit event.  
 
+## Setup
+
+> Clone this GitHub repo.
+
+## Steps to Compile and Deploy
+- Global dependencies
+    - Truffle & Ganache:
+    ```sh
+    $ npm install -g truffle ganache-cli
+    ```
+## Running the project with local test network (ganache-cli)
+
+ - Start ganache-cli with the following command:
+   ```sh
+   $ ganache-cli
+   ```
+ - Compile the smart contract using Truffle with the following command:
+   ```sh
+   $ truffle compile
+   ```
+ - Deploy the smart contracts using Truffle & Ganache with the following command:
+   ```sh
+   $ truffle migrate
+   ```
+
 ## Deploy on Kovan's Testnet
+ - Get an Ethereum Account on Metamask.
+ - On the landing page, click “Get Chrome Extension.”
+ - Create a .secret file cointaining the menomic.
+ - Get some test ether from a [Kovan's faucet](https://faucet.kovan.io/).
+ - Signup [Infura](https://infura.io/).
+ - Create new project.
+ - Copy the rinkeby URL into truffle-config.js.
+ - Uncomment the following lines in truffle-config.js:
+   ```
+   // const HDWalletProvider = require("@truffle/hdwallet-provider");
+   // const infuraKey = '...';
+   // const infuraURL = 'https://kovan.infura.io/...';
+
+   // const fs = require('fs');
+   // const mnemonic = fs.readFileSync(".secret").toString().trim();
+   ```
+ - Install Truffle HD Wallet Provider:
+   ```sh
+   $ npm install @truffle/hdwallet-provider
+   ```
+ - Deploy the smart contract using Truffle & Infura with the following command:
+   ```sh
+   $ truffle migrate --network kovan
+   ```
+
 
 
 
