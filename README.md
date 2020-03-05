@@ -1,2 +1,2 @@
-# MakerDao Tutorials
-> Tutorials from the developerguides at MakerDao
+# Dai Faucet
+> Dai in Smart Contracts's Tutorial from the developerguides at MakerDao
