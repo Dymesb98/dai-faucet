@@ -21,7 +21,7 @@ We will need to instantiate this interface later in the codebase.
 
 The **Owned** contract sets up the contract creator as the one in control, it sets the **DaiToken daitoken** variable and the **owner** variable.  
 It creates the **onlyOwner** modifier function to adds restrictions to who can call the other functions in our faucet contract.  
-When deployed on the Korovan network, the constructor function will set the **owner** variable to the address of the calling Ethereum account, and set the **daitoken** variable to the address of the Dai token contract on the Kovan network, which is [0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa](https://kovan.etherscan.io/token/0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa).  
+When deployed on the Kovan network, the constructor function will set the **owner** variable to the address of the calling Ethereum account, and set the **daitoken** variable to the address of the Dai token contract on the Kovan network, which is [0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa](https://kovan.etherscan.io/token/0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa).  
 Now the **DaiToken** interface will link the Dai token address on the kovan network. So when we call the **transfer** or **balanceOf** functions, they will call the functions of the Dai token contract.
 
 ## [Mortal](./contracts/Mortal.sol)
@@ -33,5 +33,26 @@ Here we use the **daitoken** interface, transfering any remaining Dai funds of t
 
 ## [DaiFaucet](./contracts/DaiFaucet.sol)
 > Dai Faucet
+
+The **DaiFaucet** contract inherits the **Mortal** contract, which in turn inherits the **Owned** contract. This way, we have modularised our contracts for their specific functions and added our total control over it.  
+Inside the contract we have two events that will watch and log every time there is a **Withdrawal** and a **Deposit** to/from this contract.  
+We have added the **withdraw** function that will take care to send Dai to anyone who calls this function. As you can see, we have added 2 conditions for the withdrawal: 
+* Require that the withdraw_amount is less or equal to 0.1 Dai;
+* Require that we have more Dai in the faucet than the withdraw_amount;  
+Only after these conditions are met we can transfer 0.1 Dai to the function caller. And of course, we log this transaction with the Withdrawal event. The way we send Dai to the function caller is by using the above defined DaiToken interface to allow us to make the transfer.  
+The fallback function is here to receive any incoming payments our contracts gets and log the Deposit event.  
+
+### Deploy on Kovan's Testnet
+
+
+
+
+
+
+
+
+
+
+
 
 
