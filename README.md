@@ -9,14 +9,14 @@ The Dai Stablecoin System involves a series of smart contracts that allows anyon
 
 ## Building Blocks of the DaiFaucet contract
 
-## [DaiToken](./contracts/DaiToken.sol)
+### [DaiToken](./contracts/DaiToken.sol)
 > Dai Token Interface
 
 To enable our faucet contract to recognize and interact with the Dai token contract we need to write an interface that will map the Dai token functions that we'll use.  
 In this case that means the **transfer()** and **balanceOf** functions, since we will need our contract to transfer Dai to whomever requests it and also to check the balanceOf its Dai holdings to know if it can transfer in the first place.  
 We will need to instantiate this interface later in the codebase.
 
-## [Owned](./contracts/Owned.sol)
+### [Owned](./contracts/Owned.sol)
 > Contract Ownership
 
 The **Owned** contract sets up the contract creator as the one in control, it sets the **DaiToken daitoken** variable and the **owner** variable.  
@@ -24,14 +24,14 @@ It creates the **onlyOwner** modifier function to adds restrictions to who can c
 When deployed on the Kovan network, the constructor function will set the **owner** variable to the address of the calling Ethereum account, and set the **daitoken** variable to the address of the Dai token contract on the Kovan network, which is [0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa](https://kovan.etherscan.io/token/0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa).  
 Now the **DaiToken** interface will link the Dai token address on the kovan network. So when we call the **transfer** or **balanceOf** functions, they will call the functions of the Dai token contract.
 
-## [Mortal](./contracts/Mortal.sol)
+### [Mortal](./contracts/Mortal.sol)
 > Kill Switch
 
 The **Mortal** contract inherit the **Owned** contract and give our contract a kill switch that will terminate it and return any funds back to the owner.  
 The **destroy** function can only be called by the owner, hence the **onlyOwner** modifier.  
 Here we use the **daitoken** interface, transfering any remaining Dai funds of the faucet contract to the owner.  
 
-## [DaiFaucet](./contracts/DaiFaucet.sol)
+### [DaiFaucet](./contracts/DaiFaucet.sol)
 > Dai Faucet
 
 The **DaiFaucet** contract inherits the **Mortal** contract, which in turn inherits the **Owned** contract. This way, we have modularised our contracts for their specific functions and added our total control over it.  
@@ -42,7 +42,7 @@ We have added the **withdraw** function that will take care to send Dai to anyon
 Only after these conditions are met we can transfer 0.1 Dai to the function caller. And of course, we log this transaction with the Withdrawal event. The way we send Dai to the function caller is by using the above defined DaiToken interface to allow us to make the transfer.  
 The fallback function is here to receive any incoming payments our contracts gets and log the Deposit event.  
 
-### Deploy on Kovan's Testnet
+## Deploy on Kovan's Testnet
 
 
 
