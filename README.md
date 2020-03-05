@@ -98,6 +98,8 @@ The fallback function is here to receive any incoming payments our contracts get
    ```sh
    $ truffle migrate --network kovan
    ```
+   
+   ## Use Faucet
 
 
 
