@@ -10,7 +10,7 @@ The Dai Stablecoin System involves a series of smart contracts that allows anyon
 ## Sections
 * [Building Blocks](#building-blocks-of-the-daifaucet-contract)
 * [Setup](#setup)
-* [Deploy Smart Contract](#deploy-on-kovan's-testnet)
+* [Deploy Smart Contract](#deploy-on-kovan-testnet)
 * [Use Faucet](#use-faucet)
 
 ## Building Blocks of the DaiFaucet contract
@@ -73,7 +73,7 @@ The fallback function is here to receive any incoming payments our contracts get
    $ truffle migrate
    ```
 
-## Deploy on Kovan's Testnet
+## Deploy on Kovan Testnet
  - Get an Ethereum Account on Metamask.
  - On the landing page, click “Get Chrome Extension.”
  - Create a .secret file cointaining the menomic.
