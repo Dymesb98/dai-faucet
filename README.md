@@ -45,6 +45,7 @@ Inside the contract we have two events that will watch and log every time there 
 We have added the **withdraw** function that will take care to send Dai to anyone who calls this function. As you can see, we have added 2 conditions for the withdrawal: 
 * Require that the withdraw_amount is less or equal to 0.1 Dai;
 * Require that we have more Dai in the faucet than the withdraw_amount;  
+
 Only after these conditions are met we can transfer 0.1 Dai to the function caller. And of course, we log this transaction with the Withdrawal event. The way we send Dai to the function caller is by using the above defined DaiToken interface to allow us to make the transfer.  
 The fallback function is here to receive any incoming payments our contracts gets and log the Deposit event.  
 
