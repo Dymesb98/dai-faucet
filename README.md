@@ -1,7 +1,7 @@
 [![#built_with_Truffle](https://img.shields.io/badge/built%20with-Truffle-blueviolet?style=plastic&logo=Ethereum)](https://www.trufflesuite.com/)
 
 # Dai Faucet
-> Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by MakerDao
+> Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDao](https://makerdao.com/en/)
 
 Dai is the first decentralized stablecoin built on Ethereum by MakerDao.  
 The Dai token is based on the [DS-Token](https://dapp.tools/dappsys/ds-token.html) implementation which follow the ERC-20 token standard with minor additions that makes it fit nicely into the Maker system.  
