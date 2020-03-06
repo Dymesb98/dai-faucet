@@ -107,7 +107,7 @@ The fallback function is here to receive any incoming payments our contracts get
    
 ## Use Faucet
 
-The contract has been deployed on Kovan network using [Infura](https://kovan.etherscan.io/address/0xfbc9b15453e774a700dC2CBDf65F5fa03EE0d77B) and [Remix](https://kovan.etherscan.io/address/0x527903d7938fba0b2a88b55244b0eafb28047ff6)
+The contract has been deployed on Kovan network using [Infura](https://kovan.etherscan.io/address/0xfbc9b15453e774a700dC2CBDf65F5fa03EE0d77B) and [Remix](https://kovan.etherscan.io/address/0x527903d7938fba0b2a88b55244b0eafb28047ff6).  
 Now that we have successfully deployed our smart contract on the Kovan network, we can interact with it.  
 The simplest way to interact with the contract is through Etherscan.  
 As you are the deployer of this contract, you have the source code.  
