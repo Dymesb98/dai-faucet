@@ -117,6 +117,12 @@ This allows you to interact with the contract on Etherscan with just your MetaMa
 ### Verify Contract
 
 To verify your contract and publish your source code, navigate to your contract address on Etherscan and click on the **Verify and Publish** link.  
+Select the compiler type to be **Single File** to be used for the Remix all in one file source code.  
+sure to select the right compiler version that your contract has been compiled against and then press continue.  
+Paste the Solidity code used in [Remix](./remix/DaiFaucet.sol), and then press **Verify and Publish**.  
+Congratulations! Your contract is verified, now you can interact with it from Etherscan with Metamask.
+
+
 
 
 
