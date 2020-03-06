@@ -4,7 +4,7 @@
 [![#solc 0.5.9](https://img.shields.io/badge/solc-v^0.5.9-brown?style=plastic)](https://github.com/ethereum/solidity/releases?after=v0.5.11)
 [![#testnet kovan](https://img.shields.io/badge/testnet-Kovan-purple?style=plastic&logo=Ethereum)](https://kovan.etherscan.io/address/0x527903d7938fba0b2a88b55244b0eafb28047ff6)
 # Dai Faucet
-[Under Development]
+
 > Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDao](https://makerdao.com/en/) using Truffle.
 
 
