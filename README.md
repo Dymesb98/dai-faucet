@@ -113,6 +113,9 @@ As you are the deployer of this contract, you have the source code.
 This means that you can publish the source code to Etherscan and verify the contract.  
 This allows you to interact with the contract on Etherscan with just your MetaMask account. Easy right?
 
+### Verify Contract
+
+To verify your contract and publish your source code, navigate to your contract address on Etherscan and click on the **Verify and Publish** link.  
 
 
 
