@@ -45,7 +45,7 @@ Here we use the **daitoken** interface, transfering any remaining Dai funds of t
 ### [DaiFaucet](./contracts/DaiFaucet.sol)
 > Dai Faucet
 
-The **DaiFaucet** contract inherits the **Mortal** contract, which in turn inherits the **Owned** contract. This way, we have modularised our contracts for their specific functions and added our total control over it.  
+The **DaiFaucet** contract inherits the **Mortal** contract, which in turn inherits the **Owned** contract, which finally inherits the **DaiToken** interface. This way, we have modularised our contracts for their specific functions and added our total control over it.  
 Inside the contract we have two events that will watch and log every time there is a **Withdrawal** and a **Deposit** to/from this contract.  
 We have added the **withdraw** function that will take care to send Dai to anyone who calls this function. As you can see, we have added 2 conditions for the withdrawal: 
 * Require that the withdraw_amount is less or equal to 0.1 Dai;
