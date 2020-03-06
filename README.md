@@ -5,7 +5,7 @@
 [![#testnet kovan](https://img.shields.io/badge/testnet-Kovan-brightgreen?style=plastic&logo=Ethereum)]()
 # Dai Faucet
 [Under Development]
-> Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDao](https://makerdao.com/en/)
+> Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDao](https://makerdao.com/en/) using Truffle.
 
 
 Dai is the first decentralized stablecoin built on Ethereum by MakerDao.  
