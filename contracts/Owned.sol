@@ -1,8 +1,12 @@
 pragma solidity ^0.5.9;
 
-import "./DaiToken.sol";
+// Adding only the ER-20 functions we need
+interface DaiToken {
+	function transfer(address dst, uint wad) external returns (bool);
+	function balanceOf(address guy) external view returns (uint);
+}
 
-contract Owned is DaiToken {
+contract Owned {
 	DaiToken daitoken;
 	address owner;
 
