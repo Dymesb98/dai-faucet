@@ -2,7 +2,7 @@
 [![#npm 12.14](https://img.shields.io/badge/npm-v12.14-blue?style=plastic)](https://github.com/nvm-sh/nvm#installation-and-update)
 [![#built_with_Truffle](https://img.shields.io/badge/built%20with-Truffle-blueviolet?style=plastic)](https://www.trufflesuite.com/)
 [![#solc 0.5.9](https://img.shields.io/badge/solc-v^0.5.9-brown?style=plastic)](https://github.com/ethereum/solidity/releases?after=v0.5.11)
-[![#testnet kovan](https://img.shields.io/badge/testnet-Kovan-purple?style=plastic&logo=Ethereum)]()
+[![#testnet kovan](https://img.shields.io/badge/testnet-Kovan-purple?style=plastic&logo=Ethereum)](https://kovan.etherscan.io/address/0xd0d0d3a2e1c574d8efb7c902c6adf788f684d3b5)
 # Dai Faucet
 [Under Development]
 > Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDao](https://makerdao.com/en/) using Truffle.
@@ -20,7 +20,7 @@ The Dai Stablecoin System involves a series of smart contracts that allows anyon
 
 ## Building Blocks of the DaiFaucet contract
 
-### [DaiToken](./contracts/DaiToken.sol)
+### [DaiToken](./contracts/Owned.sol)
 > Dai Token Interface
 
 To enable our faucet contract to recognize and interact with the Dai token contract we need to write an interface that will map the Dai token functions that we'll use.  
@@ -107,7 +107,7 @@ The fallback function is here to receive any incoming payments our contracts get
    
 ## Use Faucet
 
-
+The DaiFaucet contract has been deployed on [Kovan](https://kovan.etherscan.io/address/0xd0d0d3a2e1c574d8efb7c902c6adf788f684d3b5)'s Testnet!
 
 
 
