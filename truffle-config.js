@@ -19,8 +19,8 @@
  */
 
 // const HDWalletProvider = require('@truffle/hdwallet-provider');
-// const infuraKey = "...";
-// const infuraURL = 'https://kovan.infura.io/v3/...';
+// const infuraKey = "..."
+// const infuraURL = 'https://kovan.infura.io/...';
 
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();

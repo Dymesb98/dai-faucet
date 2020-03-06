@@ -1,0 +1,121 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'kovan-fork'
+> Network id:      42
+> Block gas limit: 0x989680
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > block number:        17210250
+   > block timestamp:     1583507114
+   > account:             0xF5f7393dbE345f566b5A6580c2455Bdcdd134A95
+   > balance:             0.98592993
+   > gas used:            149175
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00029835 ETH
+
+   -------------------------------------
+   > Total cost:          0.00029835 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'DaiFaucet'
+   ---------------------
+   > block number:        17210252
+   > block timestamp:     1583507122
+   > account:             0xF5f7393dbE345f566b5A6580c2455Bdcdd134A95
+   > balance:             0.98502579
+   > gas used:            424729
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000849458 ETH
+
+   -------------------------------------
+   > Total cost:         0.000849458 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001147808 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'kovan'
+> Network id:      42
+> Block gas limit: 0x989680
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xd75a01a35986e7e01d263364f40135c7819cf5b09820f61bcb92e7db35f942ac
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x0ba2f7C9E67418947fa7961d9bAD5C1fe805a957
+   > block number:        17210257
+   > block timestamp:     1583507132
+   > account:             0xF5f7393dbE345f566b5A6580c2455Bdcdd134A95
+   > balance:             0.98294478
+   > gas used:            164175
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0032835 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0032835 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'DaiFaucet'
+   ---------------------
+   > transaction hash:    0xbefdf43afacd68fb9bcca59f35c178a32639b250ff0be20903380eface6fc2b5
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xfbc9b15453e774a700dC2CBDf65F5fa03EE0d77B
+   > block number:        17210260
+   > block timestamp:     1583507144
+   > account:             0xF5f7393dbE345f566b5A6580c2455Bdcdd134A95
+   > balance:             0.97300338
+   > gas used:            454729
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00909458 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00909458 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.01237808 ETH
+
+
+
