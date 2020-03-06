@@ -107,7 +107,13 @@ The fallback function is here to receive any incoming payments our contracts get
    
 ## Use Faucet
 
-The DaiFaucet contract has been deployed on [Kovan](https://kovan.etherscan.io/address/0xd0d0d3a2e1c574d8efb7c902c6adf788f684d3b5)'s Testnet!
+Now that we have successfully deployed our smart contract on the [Kovan](https://kovan.etherscan.io/address/0xd0d0d3a2e1c574d8efb7c902c6adf788f684d3b5) network, we can interact with it.  
+The simplest way to interact with the contract is through Etherscan.  
+As you are the deployer of this contract, you have the source code.  
+This means that you can publish the source code to Etherscan and verify the contract.  
+This allows you to interact with the contract on Etherscan with just your MetaMask account. Easy right?
+
+
 
 
 
