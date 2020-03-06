@@ -121,7 +121,7 @@ Select the compiler type to be **Single File** to be used for the Remix all in o
 sure to select the right compiler version that your contract has been compiled against and then press continue.  
 Paste the Solidity code used in [Remix](./remix/DaiFaucet.sol), and then press **Verify and Publish**.  
 
-Congratulations! Your contract is verified, now you can interact with it from Etherscan with Metamask.
+Congratulations! Your contract is verified, now you can interact with it from [Etherscan](https://kovan.etherscan.io/address/0x527903d7938fba0b2a88b55244b0eafb28047ff6#writeContract) with Metamask.
 
 
 
