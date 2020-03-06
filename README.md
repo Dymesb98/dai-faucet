@@ -2,7 +2,7 @@
 [![#npm 12.14](https://img.shields.io/badge/npm-v12.14-blue?style=plastic)](https://github.com/nvm-sh/nvm#installation-and-update)
 [![#built_with_Truffle](https://img.shields.io/badge/built%20with-Truffle-blueviolet?style=plastic)](https://www.trufflesuite.com/)
 [![#solc 0.5.9](https://img.shields.io/badge/solc-v^0.5.9-brown?style=plastic)](https://github.com/ethereum/solidity/releases?after=v0.5.11)
-[![#testnet kovan](https://img.shields.io/badge/testnet-Kovan-purple?style=plastic&logo=Ethereum)](https://kovan.etherscan.io/address/0xd0d0d3a2e1c574d8efb7c902c6adf788f684d3b5)
+[![#testnet kovan](https://img.shields.io/badge/testnet-Kovan-purple?style=plastic&logo=Ethereum)](https://kovan.etherscan.io/address/0xfbc9b15453e774a700dC2CBDf65F5fa03EE0d77B)
 # Dai Faucet
 [Under Development]
 > Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDao](https://makerdao.com/en/) using Truffle.
@@ -107,7 +107,7 @@ The fallback function is here to receive any incoming payments our contracts get
    
 ## Use Faucet
 
-Now that we have successfully deployed our smart contract on the [Kovan](https://kovan.etherscan.io/address/0xd0d0d3a2e1c574d8efb7c902c6adf788f684d3b5) network, we can interact with it.  
+Now that we have successfully deployed our smart contract on the [Kovan](https://kovan.etherscan.io/address/0xfbc9b15453e774a700dC2CBDf65F5fa03EE0d77B) network, we can interact with it.  
 The simplest way to interact with the contract is through Etherscan.  
 As you are the deployer of this contract, you have the source code.  
 This means that you can publish the source code to Etherscan and verify the contract.  
