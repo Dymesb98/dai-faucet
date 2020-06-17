@@ -5,10 +5,10 @@
 [![#testnet kovan](https://img.shields.io/badge/testnet-Kovan-purple?style=plastic&logo=Ethereum)](https://kovan.etherscan.io/address/0x527903d7938fba0b2a88b55244b0eafb28047ff6)
 # Dai Faucet
 
-> Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDao](https://makerdao.com/en/) using Truffle & Remix.
+> Dai in Smart Contracts's Tutorial from the [developerguides](https://github.com/makerdao/developerguides/blob/master/dai/dai-in-smart-contracts/README.md) by [MakerDAO](https://makerdao.com/en/) using Truffle & Remix.
 
 
-Dai is the first decentralized stablecoin built on Ethereum by MakerDao.  
+Dai is the first decentralized stablecoin built on Ethereum by MakerDAO.  
 The Dai token is based on the [DS-Token](https://dapp.tools/dappsys/ds-token.html) implementation which follow the ERC-20 token standard with minor additions that makes it fit nicely into the Maker system.  
 The Dai Stablecoin System involves a series of smart contracts that allows anyone to issue Dai by locking collateral (other valuable crypto assets) into the system.
 
